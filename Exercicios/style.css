@@ -8,10 +8,7 @@ html, body,
 
 #app {
     display: flex;
-    flex-direction: row;
-
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -20,4 +17,18 @@ html, body,
     background-color: #f00;
     margin: 5px;
     flex: 1;
+}
+
+.red {
+    order: 1;
+}
+
+.green {
+    background-color: #0f0;
+    order: 2;
+}
+
+.blue {
+    background-color: #00f;
+    order: 3;
 }
