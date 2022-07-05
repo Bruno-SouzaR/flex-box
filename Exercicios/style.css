@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    background-color: #f00;
+    margin: 5px;
+    flex: 1;
+}
